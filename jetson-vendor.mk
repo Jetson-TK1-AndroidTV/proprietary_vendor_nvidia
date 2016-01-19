@@ -30,6 +30,8 @@ PRODUCT_PACKAGES += \
     GamepadPairingService \
     GlobalKeyInterceptor \
     LeanbackLauncher \
+    NvCustomize \
+    NvSDManagerService \
     Overscan \
     RemoteControlService \
     TV

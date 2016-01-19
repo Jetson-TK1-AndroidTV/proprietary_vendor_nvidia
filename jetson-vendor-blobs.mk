@@ -60,14 +60,13 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/lib/libsensors.ltr558als.so:system/lib/libsensors.ltr558als.so \
     vendor/nvidia/jetson/proprietary/lib/libsensors.max44005.so:system/lib/libsensors.max44005.so \
     vendor/nvidia/jetson/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
-    vendor/nvidia/jetson/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/nvidia/jetson/proprietary/lib/libsensors.nvs_input.so:system/lib/libsensors.nvs_input.so \
     vendor/nvidia/jetson/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/nvidia/jetson/proprietary/lib/nvcms/device.cfg:system/lib/nvcms/device.cfg \
-    vendor/nvidia/jetson/proprietary/vendor/framework/com.nvidia.graphics.jar:vendor/framework/com.nvidia.graphics.jar \
-    vendor/nvidia/jetson/proprietary/vendor/bin/btmacwriter:vendor/bin/btmacwriter \
-    vendor/nvidia/jetson/proprietary/vendor/bin/FinalTestThresholdManage.ini:vendor/bin/FinalTestThresholdManage.ini \
-    vendor/nvidia/jetson/proprietary/vendor/bin/hdcp_test:vendor/bin/hdcp_test \
+    vendor/nvidia/jetson/proprietary/vendor/framework/com.nvidia.graphics.jar:system/vendor/framework/com.nvidia.graphics.jar \
+    vendor/nvidia/jetson/proprietary/vendor/bin/btmacwriter:system/vendor/bin/btmacwriter \
+    vendor/nvidia/jetson/proprietary/vendor/bin/FinalTestThresholdManage.ini:system/vendor/bin/FinalTestThresholdManage.ini \
+    vendor/nvidia/jetson/proprietary/vendor/bin/hdcp_test:system/vendor/bin/hdcp_test \
     vendor/nvidia/jetson/proprietary/vendor/bin/nv_hciattach:vendor/bin/nv_hciattach \
     vendor/nvidia/jetson/proprietary/vendor/bin/pbc:vendor/bin/pbc \
     vendor/nvidia/jetson/proprietary/vendor/bin/raydium_selftest:vendor/bin/raydium_selftest \
