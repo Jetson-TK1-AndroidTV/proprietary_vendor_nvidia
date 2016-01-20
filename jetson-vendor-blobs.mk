@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/etc/nvram_43241.txt:system/etc/nvram_43241.txt \
     vendor/nvidia/jetson/proprietary/etc/ussrd.conf:system/etc/ussrd.conf \
     vendor/nvidia/jetson/proprietary/lib/hw/gps.brcm.so:system/lib/hw/gps.brcm.so \
-    vendor/nvidia/jetson/proprietary/lib/hw/power.tegra.so:system/lib/hw/power.tegra.so \
     vendor/nvidia/jetson/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
     vendor/nvidia/jetson/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/nvidia/jetson/proprietary/lib/libmllite.so:system/lib/libmllite.so \
@@ -63,10 +62,10 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/lib/libsensors.nvs_input.so:system/lib/libsensors.nvs_input.so \
     vendor/nvidia/jetson/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/nvidia/jetson/proprietary/lib/nvcms/device.cfg:system/lib/nvcms/device.cfg \
-    vendor/nvidia/jetson/proprietary/vendor/framework/com.nvidia.graphics.jar:system/vendor/framework/com.nvidia.graphics.jar \
-    vendor/nvidia/jetson/proprietary/vendor/bin/btmacwriter:system/vendor/bin/btmacwriter \
-    vendor/nvidia/jetson/proprietary/vendor/bin/FinalTestThresholdManage.ini:system/vendor/bin/FinalTestThresholdManage.ini \
-    vendor/nvidia/jetson/proprietary/vendor/bin/hdcp_test:system/vendor/bin/hdcp_test \
+    vendor/nvidia/jetson/proprietary/vendor/framework/com.nvidia.graphics.jar:/vendor/framework/com.nvidia.graphics.jar \
+    vendor/nvidia/jetson/proprietary/vendor/bin/btmacwriter:vendor/bin/btmacwriter \
+    vendor/nvidia/jetson/proprietary/vendor/bin/FinalTestThresholdManage.ini:vendor/bin/FinalTestThresholdManage.ini \
+    vendor/nvidia/jetson/proprietary/vendor/bin/hdcp_test:vendor/bin/hdcp_test \
     vendor/nvidia/jetson/proprietary/vendor/bin/nv_hciattach:vendor/bin/nv_hciattach \
     vendor/nvidia/jetson/proprietary/vendor/bin/pbc:vendor/bin/pbc \
     vendor/nvidia/jetson/proprietary/vendor/bin/raydium_selftest:vendor/bin/raydium_selftest \
@@ -192,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/vendor/lib/para_10_09_02_c0.so:vendor/lib/para_10_09_02_c0.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/para_10_0a_00_b0.so:vendor/lib/para_10_0a_00_b0.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/para_10_0b_00_a0.so:vendor/lib/para_10_0b_00_a0.so \
-    vendor/nvidia/jetson/proprietary/etc/ril_atc.config:system/etc/ril_atc.config \
     vendor/nvidia/jetson/proprietary/vendor/bin/crash-check-arm:vendor/bin/crash-check-arm \
     vendor/nvidia/jetson/proprietary/vendor/bin/downloader:vendor/bin/downloader \
     vendor/nvidia/jetson/proprietary/vendor/bin/icera-crashlogs:vendor/bin/icera-crashlogs \
