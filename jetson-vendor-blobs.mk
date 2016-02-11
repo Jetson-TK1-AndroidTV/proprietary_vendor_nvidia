@@ -78,7 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/vendor/bin/tlk_daemon:vendor/bin/tlk_daemon \
     vendor/nvidia/jetson/proprietary/vendor/bin/tsechdcp_test:vendor/bin/tsechdcp_test \
     vendor/nvidia/jetson/proprietary/vendor/bin/ussrd:vendor/bin/ussrd \
-    vendor/nvidia/jetson/proprietary/vendor/firmware/rtlwifi/rtl8723aufw_A.bin:vendor/firmware/rtlwifi/rtl8723aufw_A.bin \
+    vendor/nvidia/jetson/proprietary/vendor/firmware/rtlwifi/rtl8723fw_B.bin:vendor/firmware/rtlwifi/rtl8723fw_B.bin \
     vendor/nvidia/jetson/proprietary/vendor/firmware/bcm43241/fw_bcmdhd.bin:vendor/firmware/bcm43241/fw_bcmdhd.bin \
     vendor/nvidia/jetson/proprietary/vendor/lib/drm/libdrmwvmplugin.so:vendor/lib/drm/libdrmwvmplugin.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/egl/libEGL_tegra.so:vendor/lib/egl/libEGL_tegra.so \
