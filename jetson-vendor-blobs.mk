@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/bin/gps_select.sh:system/bin/gps_select.sh \
     vendor/nvidia/jetson/proprietary/bin/set_hwui_params.sh:system/bin/set_hwui_params.sh \
     vendor/nvidia/jetson/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
+    vendor/nvidia/jetson/proprietary/bin/wifi_loader.sh:system/bin/wifi_loader.sh \
+    vendor/nvidia/jetson/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
     vendor/nvidia/jetson/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/nvidia/jetson/proprietary/etc/firmware/bcm43241.hcd:system/etc/firmware/bcm43241.hcd \
     vendor/nvidia/jetson/proprietary/etc/firmware/brcm_p2p.conf:system/etc/firmware/brcm_p2p.conf \
@@ -89,6 +91,8 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/vendor/lib/hw/keystore.tegra.so:vendor/lib/hw/keystore.tegra.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/hw/memtrack.tegra.so:vendor/lib/hw/memtrack.tegra.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/hw/ts.default.so:vendor/lib/hw/ts.default.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libaudioavp.so:vendor/lib/libaudioavp.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libaudiopolicymanager.so:vendor/lib/libaudiopolicymanager.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libclcore_nvidia.bc:vendor/lib/libclcore_nvidia.bc \
     vendor/nvidia/jetson/proprietary/vendor/lib/libcuda.so:vendor/lib/libcuda.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libdrmdecrypt.so:vendor/lib/libdrmdecrypt.so \
@@ -106,11 +110,14 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/vendor/lib/libgov_tbc.so:vendor/lib/libgov_tbc.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libgov_ui.so:vendor/lib/libgov_ui.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvapputil.so:vendor/lib/libnvapputil.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvaudiofx.so:vendor/lib/libnvaudiofx.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvaudioservice.so:vendor/lib/libnvaudioservice.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvavp.so:vendor/lib/libnvavp.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvblit.so:vendor/lib/libnvblit.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvcamerahdr.so:vendor/lib/libnvcamerahdr.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvcamerahdr_v3.so:vendor/lib/libnvcamerahdr_v3.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvcam_imageencoder.so:vendor/lib/libnvcam_imageencoder.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvcapaudioservice.so:vendor/lib/libnvcapaudioservice.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvcapclk.so:vendor/lib/libnvcapclk.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvcms.so:vendor/lib/libnvcms.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvcpl.so:vendor/lib/libnvcpl.so \
@@ -123,6 +130,19 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvhwc_service.so:vendor/lib/libnvhwc_service.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvisp.so:vendor/lib/libnvisp.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvisp_v3.so:vendor/lib/libnvisp_v3.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmm_audio.so:vendor/lib/libnvmm_audio.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmm_camera.so:vendor/lib/libnvmm_camera.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmm_camera_v3.so:vendor/lib/libnvmm_camera_v3.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmm_contentpipe.so:vendor/lib/libnvmm_contentpipe.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmmlite_audio.so:vendor/lib/libnvmmlite_audio.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmmlite_image.so:vendor/lib/libnvmmlite_image.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmmlite.so:vendor/lib/libnvmmlite.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmmlite_utils.so:vendor/lib/libnvmmlite_utils.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmmlite_video.so:vendor/lib/libnvmmlite_video.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmm_parser.so:vendor/lib/libnvmm_parser.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmm.so:vendor/lib/libnvmm.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmm_utils.so:vendor/lib/libnvmm_utils.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libnvmm_writer.so:vendor/lib/libnvmm_writer.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvodm_imager.so:vendor/lib/libnvodm_imager.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvoice.so:vendor/lib/libnvoice.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvomxadaptor.so:vendor/lib/libnvomxadaptor.so \
