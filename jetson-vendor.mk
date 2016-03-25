@@ -18,7 +18,8 @@ $(call inherit-product, vendor/nvidia/jetson/jetson-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    LeanbackIme
+    LeanbackIme \
+    CanvasPackageInstaller
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -31,7 +32,7 @@ PRODUCT_PACKAGES += \
     GlobalKeyInterceptor \
     LeanbackLauncher \
     NvCustomize \
-    NvSDManagerService \
+    Overscan \
     RemoteControlService \
     TV
 
