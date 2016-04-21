@@ -195,7 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/vendor/lib/para_10_09_02_c0.so:vendor/lib/para_10_09_02_c0.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/para_10_0a_00_b0.so:vendor/lib/para_10_0a_00_b0.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/para_10_0b_00_a0.so:vendor/lib/para_10_0b_00_a0.so \
-    vendor/nvidia/jetson/proprietary/etc/firmware/iwlwifi-7260-7.ucode:system/etc/firmware/iwlwifi-7260-7.ucode \
-    vendor/nvidia/jetson/proprietary/etc/firmware/iwlwifi-7260-8.ucode:system/etc/firmware/iwlwifi-7260-8.ucode \
-    vendor/nvidia/jetson/proprietary/etc/firmware/iwlwifi-7260-9.ucode:system/etc/firmware/iwlwifi-7260-9.ucode \
-    vendor/nvidia/jetson/proprietary/etc/firmware/intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq:system/etc/firmware/intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
+    vendor/nvidia/jetson/proprietary/vendor/firmware/ar3k/AthrBT_0x11020000.dfu:vendor/firmware/ar3k/AthrBT_0x11020000.dfu \
+    vendor/nvidia/jetson/proprietary/vendor/firmware/ar3k/ramps_0x11020000_40.dfu:vendor/firmware/ar3k/ramps_0x11020000_40.dfu \
+    vendor/nvidia/jetson/proprietary/etc/firmware/ar3k/AthrBT_0x11020000.dfu:system/etc/firmware/ar3k/AthrBT_0x11020000.dfu \
+    vendor/nvidia/jetson/proprietary/etc/firmware/ar3k/ramps_0x11020000_40.dfu:system/etc/firmware/ar3k/ramps_0x11020000_40.dfu
