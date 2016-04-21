@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     GlobalKeyInterceptor \
     LeanbackLauncher \
     NvCustomize \
+    NvSDManagerService \
     RemoteControlService \
     TV
 
