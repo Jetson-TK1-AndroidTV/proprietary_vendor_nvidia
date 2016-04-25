@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/bin/set_hwui_params.sh:system/bin/set_hwui_params.sh \
     vendor/nvidia/jetson/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
     vendor/nvidia/jetson/proprietary/bin/wifi_loader.sh:system/bin/wifi_loader.sh \
-    vendor/nvidia/jetson/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
     vendor/nvidia/jetson/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/nvidia/jetson/proprietary/etc/firmware/bcm43241.hcd:system/etc/firmware/bcm43241.hcd \
     vendor/nvidia/jetson/proprietary/etc/firmware/brcm_p2p.conf:system/etc/firmware/brcm_p2p.conf \
@@ -92,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/vendor/lib/hw/memtrack.tegra.so:vendor/lib/hw/memtrack.tegra.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/hw/ts.default.so:vendor/lib/hw/ts.default.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libaudioavp.so:vendor/lib/libaudioavp.so \
-    vendor/nvidia/jetson/proprietary/vendor/lib/libaudiopolicymanager.so:vendor/lib/libaudiopolicymanager.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libclcore_nvidia.bc:vendor/lib/libclcore_nvidia.bc \
     vendor/nvidia/jetson/proprietary/vendor/lib/libcuda.so:vendor/lib/libcuda.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libdrmdecrypt.so:vendor/lib/libdrmdecrypt.so \
@@ -195,7 +193,11 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/vendor/lib/para_10_09_02_c0.so:vendor/lib/para_10_09_02_c0.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/para_10_0a_00_b0.so:vendor/lib/para_10_0a_00_b0.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/para_10_0b_00_a0.so:vendor/lib/para_10_0b_00_a0.so \
-    vendor/nvidia/jetson/proprietary/vendor/firmware/ar3k/AthrBT_0x11020000.dfu:vendor/firmware/ar3k/AthrBT_0x11020000.dfu \
-    vendor/nvidia/jetson/proprietary/vendor/firmware/ar3k/ramps_0x11020000_40.dfu:vendor/firmware/ar3k/ramps_0x11020000_40.dfu \
+    vendor/nvidia/jetson/proprietary/etc/firmware/iwlwifi-7260-7.ucode:system/etc/firmware/iwlwifi-7260-7.ucode \
+    vendor/nvidia/jetson/proprietary/etc/firmware/iwlwifi-7260-8.ucode:system/etc/firmware/iwlwifi-7260-8.ucode \
+    vendor/nvidia/jetson/proprietary/etc/firmware/iwlwifi-7260-9.ucode:system/etc/firmware/iwlwifi-7260-9.ucode \
+    vendor/nvidia/jetson/proprietary/etc/firmware/intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq:system/etc/firmware/intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq \
+    vendor/nvidia/jetson/proprietary/etc/firmware/ar3k/ramps_0x11020000_40.dfu:system/etc/firmware/ar3k/ramps_0x11020000_40.dfu \
     vendor/nvidia/jetson/proprietary/etc/firmware/ar3k/AthrBT_0x11020000.dfu:system/etc/firmware/ar3k/AthrBT_0x11020000.dfu \
-    vendor/nvidia/jetson/proprietary/etc/firmware/ar3k/ramps_0x11020000_40.dfu:system/etc/firmware/ar3k/ramps_0x11020000_40.dfu
+    vendor/nvidia/jetson/proprietary/vendor/firmware/ar3k/ramps_0x11020000_40.dfu:vendor/firmware/ar3k/ramps_0x11020000_40.dfu \
+    vendor/nvidia/jetson/proprietary/vendor/firmware/ar3k/AthrBT_0x11020000.dfu:vendor/firmware/ar3k/AthrBT_0x11020000.dfu
