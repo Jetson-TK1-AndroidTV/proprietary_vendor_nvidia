@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),jetson)
+ifeq ($(TARGET_DEVICE),foster)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := LeanbackIme
