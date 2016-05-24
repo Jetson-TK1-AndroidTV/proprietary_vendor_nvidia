@@ -154,6 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvparser.so:vendor/lib/libnvparser.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvrmapi_tegra.so:vendor/lib/libnvrmapi_tegra.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvrm_graphics.so:vendor/lib/libnvrm_graphics.so \
+    vendor/nvidia/jetson/proprietary/vendor/lib/libopencv24_tegra.so:vendor/lib/libopencv24_tegra.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvrm.so:vendor/lib/libnvrm.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvsm.so:vendor/lib/libnvsm.so \
     vendor/nvidia/jetson/proprietary/vendor/lib/libnvstitching.so:vendor/lib/libnvstitching.so \
